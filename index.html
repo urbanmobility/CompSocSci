@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+
+    <title>SJTU-CS1126</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+
+
+<body>
+    <nav class="navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand brand" href="index.html">CS1126</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="syllabus.html"><b>Syllabus</b></a></li>
+                    <li><a href="final_project.html"><b>Final Projects</b></a></li>
+                    <li><a href="resources.html"><b>Resources</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <div id="header" style="text-align:center">
+        <h1 style="font-weight:bold">CS1126: 计算社会科学导论</h1>
+        <h2>SJTU - Spring 2023</h2>
+    </div> -->
+
+    <div id="video-header">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        <!-- <source src="http://zeus.ist.berkeley.edu/wp-content/uploads/2020/02/14799841-preview.mp4" type="video/mp4"> -->
+        <source src="video/preview.mp4" type="video/mp4">
+        </video>
+        <div class="container h-50 align-items-center" style="margin-top: 100px;">
+        <div class="d-flex h-50 text-center align-items-center">
+            <div class="w-100 text-white">
+            <h1 style="font-size: 55px; font-weight: bolder;"><span style="color: #fff;">CS1126: 计算社会科学导论</span></h1>
+            <h2><span style="color: #fff;">SJTU - Spring 2023</span></h2>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="sechighlight">
+        <div class="container sec">
+            <h2>课程介绍</h2>
+
+            <div id="coursedesc" style="text-indent:2em">
+                <p>随着大数据与人工智能技术的发展，科学家可以利用数据驱动和自然科学的方法量化人类行为与建模复杂的社会现象，
+                    提升人类社会福祉，也催生了理、工、文交叉的当代社会科学研究新范式——计算社会科学。</p>
+                <p>本课程设定为面向本科二、三年级学生的全校通选课，不限制学生专业背景。
+                    主要教学内容包括介绍社会科学传统与现代交叉科学研究范式、计算社会科学的一般性研究方法
+                    （数据获取、分析、可视化、关联性分析）、典型社会现象（人类行为、交通拥堵、社交网络、疫情传播）、
+                    基本的数据分析方法（时间序列分析、文本分析、复杂网络、时空数据挖掘、智能体模型、典型人工智能模型），
+                    并带领学生研读《Nature》、《Science》系列期刊发表的经典计算社会科学研究工作，学习研究思路；
+                    最终以小组形式开展计算社会科学课题研究，形成科研成果汇报与研究报告。</p> 
+                <p>课程教学目标是让本科年级同学接触计算社会科学这一重要研究领域，
+                    了解如何利用大数据与人工智能技术研究社会现象、解决社会发展进程中的重要问题，
+                    培养学生的跨学科思维与科学研究能力以及开源科学思想，扩宽学生国际视野，关心人类与社会发展。</p>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container sec" id="people">
+        <div class="col-md-4">
+            <h3>讲师</h3>
+            <div class="instructor" style="margin-bottom: 25px;">
+                <div class="instructorphoto"><img src="img/photo/yhjin.jpeg"></div>
+                <div><a href="https://loct.sjtu.edu.cn/team/detail.aspx?cid=12&id=7" target="_blank">金耀辉</a></div>
+                <div>人工智能研究院<br>长聘教授<br>
+                    研究方向：<br>
+                    数据治理、人工智能、法律科技
+                </div>
+                <div><a href="mailto:jinyh@sjtu.edu.cn">Email</a></div>
+            </div>
+
+            <div class="instructor" style="margin-bottom: 25px;">
+                <div class="instructorphoto"><img src="img/photo/yxu.jpeg"></div>
+                <div><a href="http://humnetlab.berkeley.edu/~yxu/" target="_blank">许岩岩</a></div>
+                <div>人工智能研究院<br>副教授<br>
+                    研究方向：<br>
+                    计算城市科学、复杂系统建模
+                </div>
+                <div><a href="mailto:yanyanxu@sjtu.edu.cn">Email</a></div>
+            </div>
+            
+        </div>
+
+        <div class="col-md-8">
+            <h3>助教</h3>
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/szhao.jpg"></div>
+                <div>赵帅</div>
+                <div>
+                    人工智能研究院 博士后 <br>
+                    凯原法学院 法学博士<br>
+                    研究方向：<br>计算法学
+                </div>
+                <div><a href="mailto:shuaizhao@sjtu.edu.cn">Email</a></div>
+            </div>
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/syhuang.jpeg"></div>
+                <div>黄劭煜</div>
+                <div>
+                    人工智能研究院<br>
+                    2022级博士研究生<br>
+                    研究方向：<br>计算城市科学
+                </div>
+                <div><a href="mailto:leak_ish@sjtu.edu.cn">Email</a></div>
+            </div>
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/zphu.jpeg"></div>
+                <div>胡钊萍</div>
+                <div>
+                    人工智能研究院<br>
+                    2021级硕士研究生<br>
+                    研究方向：<br>时空数据挖掘
+                </div>
+                <div><a href="mailto:zhaopinghu@sjtu.edu.cn">Email</a></div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <h3>课程学术顾问</h3>
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/Martita.jpeg"></div>
+                <div>Prof. <a href="https://ce.berkeley.edu/people/faculty/martag" target="_blank">Marta Gonzalez</a><br>
+                    DCRP & CEE<br>
+                    UC Berkeley<br>
+                    研究方向：<br>人类动力学、计算社会科学、复杂系统
+                    <br>
+                </div>
+            </div>
+
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/lyang.jpeg"></div>
+                <div><a href="https://law.sjtu.edu.cn/flfs/20210226/194.html" target="_blank">杨力</a><br>
+                    长聘教授<br>
+                    凯原法学院<br>
+                    智慧法院研究院<br>
+                    研究方向：<br>智慧司法、社会治理
+                </div>
+            </div>
+
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/hhe.jpeg"></div>
+                <div><a href="https://ee.sjtu.edu.cn/FacultyDetail.aspx?id=82&infoid=66&flag=66" target="_blank">何浩</a><br>
+                    副教授<br> 
+                    电子信息与电气工程学院<br>
+                    研究方向：<br>自然语言处理、法律科技  
+                    <br><br/>                
+                </div>
+            </div>
+
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/dbshi.jpeg"></div>
+                <div><a href="https://www.sipa.sjtu.edu.cn/szll/qzjs/ggxzx/sdb.htm" target="_blank">史冬波</a><br>
+                    副研究员<br>
+                    国际与公共事务学院<br>
+                    研究方向：<br>创新经济学，战略管理
+                    <br><br/> 
+                </div>
+            </div>
+
+            <div class="instructor" style="vertical-align: bottom; width: 160px;">
+                <div class="instructorphoto"><img src="img/photo/cxli.jpeg"></div>
+                <div><a href="https://www.acem.sjtu.edu.cn/faculty/lichunxiao.html" target="_blank">李春晓</a> <br>
+                    助理教授<br>
+                    安泰经济与管理学院<br>
+                    研究方向：<br>信息系统、普惠金融
+                    
+                    <br><br/>                     
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sechighlight">
+        <div class="container sec" id="logistics">
+            <h2>考核方式</h2>
+            <h4>出勤与课堂表现 (10%)</h4>
+            <h4>平时作业 (30%)</h4>
+            <h4>课程项目 (60%)</h4>
+            <ul>
+                <li><div class="attn"> 每个项目小组由3名同学组成，1名老师或博士生单独指导 </div></li>
+                <li>课程项目演讲 30%</li>
+                <li>课程论文 30%</li>
+                
+            </ul>
+            <!-- <ul>
+                <li>出勤与课堂表现:10%</li>
+                <li>平时作业: 30%</li>
+                <li>课程项目 60%，其中课程项目演讲 30%，课程论文 30%</li>
+            </ul> -->
+
+            <h2>教材或参考资料</h2>
+            <div class="col-md-12">
+
+                <div class="refbook" style="width: 280px">
+                    <div class="refbookpic"><img src="img/book/book2.jpeg"></div>
+                    <div>
+                        《计算社会科学:数字时代社会研究的新方法》<br>
+                        郝龙等编著<br>
+                        中国社会科学出版社
+                    </div>
+                </div>
+
+                <div class="refbook">
+                    <div class="refbookpic"><img src="img/book/book3.jpeg"></div>
+                    <div>
+                        《复杂性思考:复杂性科学和计算模型》<br>
+                        Allen B.Downey 编著，郭涛、朱梦瑶译<br>
+                        机械工业出版社
+                    </div>
+                </div>
+
+                <div class="refbook">
+                    <div class="refbookpic"><img src="img/book/book1.jpeg"></div>
+                    <div>
+                        《智慧社会:大数据与社会物理学》<br>
+                        Alex Pentland 编著，汪小帆、汪蓉译<br>
+                        浙江人民出版社
+                    </div>
+                </div>
+
+                <div class="refbook">
+                    <div class="refbookpic"><img src="img/book/book4-1.jpeg"></div>
+                    <div>
+                        《计算社会学:数据时代的社会研究》<br>
+                        Matthew J. Salganik 编著<br>
+                        中信出版集团
+                    </div>
+                </div>
+
+                <!-- <ul>
+                    <li>《智慧社会:大数据与社会物理学》，Alex Pentland 编著，汪小帆、汪蓉译，浙江人民出 版社，2015 年第一版，ISBN:9787213065842</li>
+                    <li>《计算社会科学:数字时代社会研究的新方法》，郝龙等编著，中国社会科学出版社， 2022 年第一版，ISBN:9787522701653</li>
+                    <li>《复杂性思考:复杂性科学和计算模型》，Allen B.Downey 编著，郭涛、朱梦瑶译，机 械工业出版社，2020 年第一版，ISBN:9787111647348</li>
+                    <li> <a href="https://www.bitbybitbook.com/" target="_blank">Bit By Bit: Social Research in the Digital Age</a></li>
+                </ul> -->
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- <div class="container sec" id="coursework" style="margin-top:-20px">
+        <h2>TODO-2</h2>
+        <h3>aaa</h3>
+        <ul>
+            <li><span class="spanh">Proficiency in Python</span><br>All class assignments will be in Python (and use numpy) (we provide a tutorial <a href="http://cs231n.github.io/python-numpy-tutorial/">here</a> for those who aren't as familiar with Python).
+                If you have a lot of programming experience but in a different language (e.g. C/C++/Matlab/Javascript) you will probably be fine.</li>
+            <li><span class="spanh">College Calculus, Linear Algebra</span> (e.g. MATH 19 or 41, MATH 51)<br> You should be comfortable taking derivatives and understanding matrix vector operations and notation.</li>
+            <li><span class="spanh">Basic Probability and Statistics</span> (e.g. CS 109 or other stats course)<br>You should know basics of probabilities, gaussian distributions, mean, standard deviation, etc.</li>
+        </ul>
+
+        <h3>bbb (45%)</h3>
+        <p>See the <a href="assignments.html">Assignments</a> page for details regarding assignments, late days and collaboration policies.</p>
+    </div>
+
+    <div class="sechighlight">
+        <div class="container sec">
+            <h3>FAQ</h3>
+            <div class="qqa">
+                <div class="qq">Can I take this course on credit/no cred basis?</div>
+                <div class="qa">Yes. Credit will be given to those who would have otherwise earned a C- or above.</div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container sec">
+        <h3>Office hour: </h3>
+        周五下午 3:00-5:00，软件大楼5-512。在线答疑：微信群，canvas讨论。
+        <br>
+        <h3>FAQ: </h3>
+
+    </div>
+
+    <!-- jQuery and Boostrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <div class="container">
+        <div class="bottom">
+            <span>网站样式设计参考 <a href="http://cs231n.stanford.edu/index.html" target="_blank">Stanford CS231n</a></span>
+        </div>
+    </div>
+    
+
+</body>
+
+</html> 
