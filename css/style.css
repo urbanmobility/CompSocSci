@@ -119,6 +119,29 @@ h3 {
     margin-bottom: 10px;
 }
 
+.poster{
+    display: inline-block;
+    width: 320px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.poster btitle{
+    font-size: 18px;
+}
+.poster img{
+    width: 280px;
+    height: auto;
+    object-fit: cover;
+    display: inline-block;
+    border: none;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
 .sec {
     margin-bottom: 10px;
     padding-top: 10px;
