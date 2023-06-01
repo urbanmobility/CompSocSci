@@ -121,7 +121,7 @@ h3 {
 
 .poster{
     display: inline-block;
-    width: 320px;
+    width: 360px;
     text-align: center;
     margin-right: 25px;
     margin-bottom: 5px;
@@ -129,8 +129,9 @@ h3 {
     vertical-align: top;
 }
 
-.poster btitle{
-    font-size: 18px;
+.poster .btitle{
+    font-size: 16px;
+    margin: 5px 5px;
 }
 .poster img{
     width: 280px;
@@ -139,6 +140,7 @@ h3 {
     display: inline-block;
     border: none;
     margin-bottom: 10px;
+    margin-top: 5px;
     vertical-align: middle;
 }
 
